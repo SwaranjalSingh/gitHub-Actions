@@ -33,6 +33,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   job2:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
