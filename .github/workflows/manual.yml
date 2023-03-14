@@ -30,7 +30,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Send greeting
+    - name: print info
       run: | 
         echo "Hello ${{ github.event.inputs.name }}"
         echo "your entered age is ${{ github.event.inputs.Age }}"
